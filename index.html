@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sine Nomine : anonymiseur de fichiers 100 % local</title>
+<meta name="description" content="Sine Nomine anonymise ou pseudonymise vos documents Word, PowerPoint, Excel, PDF, Markdown, CSV, HTML et texte sur votre ordinateur, sans rien envoyer sur Internet.">
+<link rel="canonical" href="https://www.sinenomine.app/">
+<link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/">
+<link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/">
+<link rel="icon" href="/assets/sine-nomine.ico">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:title" content="Sine Nomine : anonymiseur de fichiers 100 % local">
+<meta property="og:description" content="Sine Nomine anonymise ou pseudonymise vos documents Word, PowerPoint, Excel, PDF, Markdown, CSV, HTML et texte sur votre ordinateur, sans rien envoyer sur Internet.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.sinenomine.app/assets/sine-nomine.png">
+</head>
+<body>
+<a class="aller-contenu" href="#contenu">Aller au contenu</a>
+<header class="entete"><div class="entete-interieur">
+<a class="marque" href="/"><img src="/assets/sine-nomine.png" alt="Sine Nomine"><span>Sine Nomine</span></a>
+<nav class="menu" aria-label="Menu"><a href="/" aria-current="page">Accueil</a><a href="/telecharger/">Télécharger</a><span class="langue"><a href="/" hreflang="fr" lang="fr" title="Français" aria-label="Français" aria-current="true"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#0055a4"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ef4135"/></svg></a><a href="/en/" hreflang="en" lang="en" title="English" aria-label="English"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#012169"/><path d="M0 0l60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0l60 40M60 0L0 40" stroke="#c8102e" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="13"/><path d="M30 0v40M0 20h60" stroke="#c8102e" stroke-width="8"/></svg></a></span></nav>
+</div></header>
+<main id="contenu">
+
+<section class="heros">
+<h1>Anonymisez vos documents sans qu'ils quittent votre ordinateur</h1>
+<p>Sine Nomine remplace les noms de personnes, de sociétés, de produits et de lieux, ainsi que les informations sensibles
+(e-mails, téléphones, IBAN, adresses, sites web…), dans vos fichiers Word, PowerPoint, Excel, PDF, Markdown, CSV, HTML et texte.
+Tout se passe sur votre machine : <strong>aucune donnée n'est envoyée sur Internet</strong>.</p>
+<p><a class="bouton" href="/telecharger/">Télécharger la version 0.1.3.8</a>
+<a class="bouton bouton-secondaire" href="#fonctionnement">Comment ça marche</a></p>
+<p class="discret">Windows 10 ou 11 · usage personnel non commercial · documents en français et en anglais · interface bilingue</p>
+</section>
+
+<div class="grille">
+<div class="carte"><h3>100 % local</h3><p>Vos fichiers restent sur votre disque. L'application n'utilise Internet que pendant son installation, pour télécharger les modèles de détection.</p></div>
+<div class="carte"><h3>Deux modes</h3><p><strong>Pseudonymiser</strong> : codes aléatoires (<code>Personne_KQXMB</code>) avec une archive pour retrouver les noms plus tard. <strong>Anonymiser</strong> : <code>Personne_1</code>, sans rien conserver.</p></div>
+<div class="carte"><h3>Vous gardez la main</h3><p>Avant tout remplacement, vous validez chaque détection, onglet par onglet, avec le contexte de chaque mot. Les fichiers d'origine ne sont jamais modifiés.</p></div>
+<div class="carte"><h3>Réversible</h3><p>Un fichier pseudonymisé peut être remis dans son état d'origine à tout moment grâce à l'archive des codes, et les pseudonymes peuvent être corrigés après coup.</p></div>
+</div>
+
+<h2 id="fonctionnement">Comment ça marche</h2>
+<ol class="etapes">
+<li><strong>Déposez vos fichiers</strong> ou indiquez un dossier. Les PDF sont lus, y compris les documents scannés (reconnaissance de caractères).</li>
+<li><strong>Vérifiez les détections</strong> : personnes, sociétés, produits, lieux, informations sensibles. Décochez, corrigez, fusionnez les doublons, ajoutez les oublis.</li>
+<li><strong>Confirmez</strong> : Sine Nomine produit de nouveaux fichiers, avec les noms de fichiers eux-mêmes anonymisés.</li>
+<li><strong>Récupérez le résultat</strong> et son rapport détaillé (HTML et Excel) : ce qui a été remplacé, où, et ce qui a été conservé.</li>
+</ol>
+
+<h2>Ce qui est détecté</h2>
+<div class="grille">
+<div class="carte"><h3>Noms</h3><p>Personnes (avec particules et titres : « Charles de Gaulle », « Dr Martin »), sociétés, produits et marques, villes et pays. Accents, majuscules et graphies étrangères sont reconnus (« Léa » = « Lea », « Kärscher » = « Kaerscher »).</p></div>
+<div class="carte"><h3>Coordonnées et identifiants</h3><p>E-mails, téléphones (France, Royaume-Uni, États-Unis, international), adresses, IBAN et BIC, cartes bancaires, numéros de sécurité sociale, SIRET, TVA, plaques, passeports, NINO, SSN, NHS.</p></div>
+<div class="carte"><h3>Traces numériques</h3><p>URL et noms de domaine, adresses IP et MAC, comptes (@nom), chemins de fichiers et de réseau, coordonnées GPS, métadonnées des fichiers Office (auteur, société, commentaires).</p></div>
+</div>
+
+<h2>À savoir avant de l'utiliser</h2>
+<div class="alerte"><strong>Aucune détection automatique n'est fiable à 100 %.</strong> Des noms peuvent échapper à l'outil, ou être détectés à tort. La relecture humaine de chaque traitement est indispensable, et le résultat doit être relu avant diffusion. Une pseudonymisation n'est pas une anonymisation au sens du RGPD ; même l'anonymisation ne garantit pas que le texte reste non identifiable par recoupement.</div>
+<ul class="texte-long">
+<li>Fonctionne sous <strong>Windows 10 ou 11</strong>. L'installation télécharge environ 2 Go de modèles et demande environ 6 Go d'espace disque.</li>
+<li>Usage <strong>personnel non commercial</strong> ; tout autre usage exige l'accord de Habeas Corpus S.A.S. (<a href="/conditions/">conditions d'utilisation</a>).</li>
+<li>Les documents en allemand, espagnol et italien sont reconnus mais moins bien analysés ; les autres alphabets ne sont pas pris en charge.</li>
+</ul>
+<p><a class="bouton" href="/telecharger/">Télécharger Sine Nomine</a></p>
+
+</main>
+<footer class="pied"><div class="pied-interieur">
+<img src="/assets/habeas-corpus.png" alt="Habeas Corpus">
+<span>© 2026 Habeas Corpus Consulting, une marque de Habeas Corpus S.A.S.<br><a href="mailto:contact@hcorpus.com">contact@hcorpus.com</a> · +33 1 89 16 73 22</span>
+<nav aria-label="Informations légales"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions/">Conditions d&#x27;utilisation</a></nav>
+</div></footer>
+</body>
+</html>

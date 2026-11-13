@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download Sine Nomine · Sine Nomine</title>
+<meta name="description" content="Sine Nomine anonymises or pseudonymises your Word, PowerPoint, Excel, PDF, Markdown, CSV, HTML and text documents on your own computer, without sending anything over the Internet.">
+<link rel="canonical" href="https://www.sinenomine.app/en/download/">
+<link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/telecharger/">
+<link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/download/">
+<link rel="icon" href="/assets/sine-nomine.ico">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:title" content="Download Sine Nomine · Sine Nomine">
+<meta property="og:description" content="Sine Nomine anonymises or pseudonymises your Word, PowerPoint, Excel, PDF, Markdown, CSV, HTML and text documents on your own computer, without sending anything over the Internet.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.sinenomine.app/assets/sine-nomine.png">
+</head>
+<body>
+<a class="aller-contenu" href="#contenu">Skip to content</a>
+<header class="entete"><div class="entete-interieur">
+<a class="marque" href="/en/"><img src="/assets/sine-nomine.png" alt="Sine Nomine"><span>Sine Nomine</span></a>
+<nav class="menu" aria-label="Menu"><a href="/en/">Home</a><a href="/en/download/" aria-current="page">Download</a><span class="langue"><a href="/telecharger/" hreflang="fr" lang="fr" title="Français" aria-label="Français"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#0055a4"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ef4135"/></svg></a><a href="/en/download/" hreflang="en" lang="en" title="English" aria-label="English" aria-current="true"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#012169"/><path d="M0 0l60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0l60 40M60 0L0 40" stroke="#c8102e" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="13"/><path d="M30 0v40M0 20h60" stroke="#c8102e" stroke-width="8"/></svg></a></span></nav>
+</div></header>
+<main id="contenu">
+
+<h1>Download Sine Nomine</h1>
+<p class="texte-long">Version <strong>0.1.3.8</strong> of 13/11/2026 · Windows 10 or 11 · 0.3 MB ZIP archive (the program; the detection models are downloaded during installation).</p>
+<div class="telechargement">
+<h2 style="margin-top:0">Download SineNomine-V0.1.3.8.zip</h2>
+<noscript><p class="alerte">JavaScript is disabled: the link is shown below. By following it, you accept the <a href="/en/terms/">terms of use</a> (personal, non-commercial use).</p>
+<p><a class="bouton" href="/telechargements/SineNomine-V0.1.3.8.zip" download>Download</a></p></noscript>
+<label><input type="checkbox" id="accepter"><span>I have read and accept the <a href="/en/terms/" target="_blank" rel="noopener">terms of use</a>: <strong>personal, non-commercial</strong> use, no warranty that detection is complete, review is essential.</span></label>
+<a class="bouton" id="telecharger" href="/telechargements/SineNomine-V0.1.3.8.zip" download aria-disabled="true">Download version 0.1.3.8</a>
+<p class="discret" style="margin-bottom:0">SHA-256 checksum: <span class="empreinte">3e8a36edee43165eaae18c8e9ad0c803247bb0e4a8a03bacb9c04ea972d15243</span></p>
+</div>
+
+<h2>Installation (Windows)</h2>
+<ol class="etapes">
+<li><strong>Unzip the archive</strong> into a local folder, for example <code>C:\SineNomine</code>. Avoid a synchronised folder (Google Drive, OneDrive): your files and the code archive would be transmitted to that service.</li>
+<li><strong>Double-click <code>lancer.bat</code></strong>. On first launch, the installation sets everything up: it offers to install Python 3.12 if needed (winget), downloads about 2 GB of models and installs optical character recognition (Tesseract) for scanned PDFs. Allow a fair amount of time, depending on your connection, and an Internet connection.</li>
+<li><strong>The interface opens in your browser</strong> at <code>http://127.0.0.1:8765/</code> (a local address, visible only to you). Read and accept the notice, then pick an action from the menu.</li>
+<li><strong>Optional</strong>: double-click <code>creer-raccourcis.bat</code> to add a Desktop shortcut.</li>
+</ol>
+<p class="texte-long">Loading the models takes 20 to 60 seconds each time it starts. Keep the black window open while you use it, and close it to stop Sine Nomine.</p>
+
+<h2>Check the downloaded file</h2>
+<p class="texte-long">In PowerShell, from the download folder, compare the result with the checksum above:</p>
+<pre><code>Get-FileHash SineNomine-V0.1.3.8.zip -Algorithm SHA256</code></pre>
+
+<h2>Recommended setup</h2>
+<table>
+<tr><th>System</th><td>Windows 10 or 11 (64-bit)</td></tr>
+<tr><th>Memory</th><td>8 GB of RAM or more recommended (the detection models are loaded into memory)</td></tr>
+<tr><th>Disk space</th><td>about 6 GB (libraries and detection models)</td></tr>
+<tr><th>Internet</th><td>needed for installation only; use is entirely offline</td></tr>
+</table>
+<div class="alerte">Sine Nomine is an assistance tool: always review the detections and the result. See the <a href="/en/terms/">terms of use</a>.</div>
+<script>
+(function () {
+  var case_ = document.getElementById("accepter"), lien = document.getElementById("telecharger");
+  function maj() {
+    lien.setAttribute("aria-disabled", case_.checked ? "false" : "true");
+    lien.tabIndex = case_.checked ? 0 : -1;
+  }
+  lien.addEventListener("click", function (e) { if (!case_.checked) e.preventDefault(); });
+  case_.addEventListener("change", maj);
+  maj();
+})();
+</script>
+
+</main>
+<footer class="pied"><div class="pied-interieur">
+<img src="/assets/habeas-corpus.png" alt="Habeas Corpus">
+<span>© 2026 Habeas Corpus Consulting, a trademark of Habeas Corpus S.A.S.<br><a href="mailto:contact@hcorpus.com">contact@hcorpus.com</a> · +33 1 89 16 73 22</span>
+<nav aria-label="Legal information"><a href="/en/legal-notice/">Legal notice</a><a href="/en/privacy/">Privacy</a><a href="/en/terms/">Terms of use</a></nav>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Site de Sine Nomine : palette du logo, bleu marine #16394d et jaune #edca0c.
+   Contrastes : marine sur blanc 11,9 ; jaune sur marine 7,5. Le jaune ne sert jamais de texte sur fond clair. */
+:root {
+  --bleu: #16394d; --bleu-fonce: #0e2735; --jaune: #edca0c; --jaune-doux: #fff6cc; --jaune-texte: #7a5f00;
+  --fond: #f2f5f7; --carte: #ffffff; --texte: #12212b; --discret: #4b6070; --bordure: #d3dde4; --ok: #1e7a46;
+  --ombre: 0 1px 2px rgba(14, 39, 53, .06), 0 8px 24px rgba(14, 39, 53, .08);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; color: var(--texte); background: var(--fond); }
+a { color: var(--bleu); text-underline-offset: .2em; }
+a:hover { color: var(--bleu-fonce); }
+:focus-visible { outline: 3px solid var(--jaune); outline-offset: 2px; }
+.aller-contenu { position: absolute; left: -999px; top: 0; background: var(--jaune); color: var(--bleu-fonce); padding: .6rem 1rem; z-index: 10; }
+.aller-contenu:focus { left: 1rem; top: 1rem; }
+
+/* En-tête */
+.entete { background: var(--bleu); border-bottom: 4px solid var(--jaune); }
+.entete-interieur { max-width: 1080px; margin: 0 auto; padding: .8rem 1.25rem; display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: .75rem; color: #fff; text-decoration: none; font-weight: 700; font-size: 1.25rem; }
+.marque img { height: 44px; width: auto; }
+.menu { display: flex; gap: .25rem 1.25rem; flex-wrap: wrap; margin-left: auto; align-items: center; }
+.menu a { color: #fff; text-decoration: none; padding: .3rem 0; border-bottom: 2px solid transparent; }
+.menu a:hover, .menu a[aria-current="page"] { border-bottom-color: var(--jaune); color: #fff; }
+.langue { display: inline-flex; gap: .4rem; }
+.langue a { display: inline-block; border: 2px solid transparent; border-radius: 4px; line-height: 0; padding: 2px; }
+.langue a[aria-current="true"] { border-color: var(--jaune); }
+.langue svg { width: 32px; height: 22px; display: block; border-radius: 2px; }
+
+/* Mise en page */
+main { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.25rem 3.5rem; }
+h1, h2, h3 { color: var(--bleu); line-height: 1.25; }
+h1 { font-size: 2.2rem; margin: 0 0 1rem; }
+h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; }
+h2::after { content: ""; display: block; width: 56px; height: 4px; background: var(--jaune); margin-top: .5rem; border-radius: 2px; }
+h3 { font-size: 1.15rem; margin: 1.5rem 0 .5rem; }
+.heros { background: var(--bleu); color: #fff; border-radius: 16px; padding: 3rem 2rem; margin-bottom: 2rem; box-shadow: var(--ombre); }
+.heros h1 { color: #fff; font-size: 2.5rem; max-width: 22ch; }
+.heros p { max-width: 62ch; font-size: 1.15rem; color: #e3edf3; }
+.heros .discret { color: #b9cdd9; font-size: .95rem; }
+.bouton { display: inline-block; background: var(--jaune); color: var(--bleu-fonce); font-weight: 700; padding: .8rem 1.6rem; border-radius: 10px; text-decoration: none; border: 0; font-size: 1.05rem; cursor: pointer; }
+.bouton:hover { background: #f6d73a; color: var(--bleu-fonce); }
+.bouton[aria-disabled="true"], .bouton:disabled { background: #cfd8de; color: #5d707e; cursor: not-allowed; }
+.bouton-secondaire { background: transparent; color: #fff; border: 2px solid #fff; margin-left: .75rem; }
+.bouton-secondaire:hover { background: rgba(255, 255, 255, .12); color: #fff; }
+.grille { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.carte { background: var(--carte); border: 1px solid var(--bordure); border-radius: 14px; padding: 1.4rem 1.5rem; box-shadow: var(--ombre); }
+.carte h3 { margin-top: 0; }
+.carte p:last-child { margin-bottom: 0; }
+.etapes { counter-reset: etape; list-style: none; padding: 0; display: grid; gap: 1rem; }
+.etapes li { counter-increment: etape; background: var(--carte); border: 1px solid var(--bordure); border-radius: 14px; padding: 1rem 1.25rem 1rem 4rem; position: relative; }
+.etapes li::before { content: counter(etape); position: absolute; left: 1.1rem; top: 1rem; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--bleu); color: #fff; font-weight: 700; display: grid; place-items: center; }
+.etapes code, code { background: #e6eef3; padding: .1em .4em; border-radius: 4px; font-size: .92em; }
+pre { background: var(--bleu-fonce); color: #e8eef2; padding: 1rem; border-radius: 10px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+.alerte { background: var(--jaune-doux); border-left: 5px solid #b99a00; color: #3d3000; padding: 1rem 1.25rem; border-radius: 8px; margin: 1.5rem 0; }
+.a-completer { background: #fbe98a; color: var(--jaune-texte); font-weight: 700; padding: 0 .3em; border-radius: 3px; }
+.discret { color: var(--discret); }
+table { border-collapse: collapse; width: 100%; background: var(--carte); border-radius: 10px; overflow: hidden; }
+th, td { text-align: left; padding: .6rem .9rem; border-bottom: 1px solid var(--bordure); vertical-align: top; }
+th { background: #e6eef3; color: var(--bleu); }
+.telechargement { background: var(--carte); border: 2px solid var(--bleu); border-radius: 16px; padding: 1.75rem; box-shadow: var(--ombre); }
+.telechargement label { display: flex; gap: .7rem; align-items: flex-start; margin: 1rem 0 1.25rem; cursor: pointer; }
+.telechargement input[type=checkbox] { width: 1.3rem; height: 1.3rem; margin-top: .2rem; accent-color: var(--bleu); flex-shrink: 0; }
+.empreinte { word-break: break-all; font-family: Consolas, monospace; font-size: .88rem; }
+.texte-long { max-width: 74ch; }
+
+/* Pied de page */
+.pied { background: var(--bleu-fonce); color: #c9d8e1; border-top: 4px solid var(--jaune); }
+.pied-interieur { max-width: 1080px; margin: 0 auto; padding: 1.75rem 1.25rem; display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center; font-size: .92rem; }
+.pied a { color: #fff; }
+.pied img { height: 44px; width: auto; border-radius: 6px; }
+.pied nav { display: flex; gap: .4rem 1.25rem; flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .heros { padding: 2rem 1.25rem; }
+  .heros h1 { font-size: 1.9rem; }
+  .bouton-secondaire { margin: .75rem 0 0; }
+  .menu { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
