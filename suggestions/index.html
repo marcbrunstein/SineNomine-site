@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suggérer une amélioration | Sine Nomine</title>
+<meta name="description" content="Une idée pour améliorer Sine Nomine ? Envoyez-nous votre suggestion. Elle sera examinée, sans garantie de réalisation ni de délai.">
+<link rel="canonical" href="https://www.sinenomine.app/suggestions/">
+<link rel="icon" href="/assets/sine-nomine.ico">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:site_name" content="Sine Nomine">
+<meta property="og:title" content="Suggérer une amélioration | Sine Nomine">
+<meta property="og:description" content="Une idée pour améliorer Sine Nomine ? Envoyez-nous votre suggestion. Elle sera examinée, sans garantie de réalisation ni de délai.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sinenomine.app/suggestions/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://www.sinenomine.app/assets/sine-nomine.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.sinenomine.app/#editeur","name":"Habeas Corpus","legalName":"HABEAS CORPUS","url":"https://www.sinenomine.app/","logo":"https://www.sinenomine.app/assets/habeas-corpus.png","email":"contact@sinenomine.app","telephone":"+33 1 89 16 73 22","vatID":"FR17898734231","taxID":"898734231","address":{"@type":"PostalAddress","streetAddress":"5 route du Bosc André","postalCode":"27230","addressLocality":"Saint-Germain-la-Campagne","addressCountry":"FR"}}</script>
+</head>
+<body>
+<a class="aller-contenu" href="#contenu">Aller au contenu</a>
+<header class="entete"><div class="entete-interieur">
+<a class="marque" href="/"><img src="/assets/sine-nomine.png" alt="Sine Nomine" width="44" height="44"><span>Sine Nomine</span></a>
+<nav class="menu" aria-label="Menu"><a href="/">Accueil</a><a class="menu-achat" href="/acheter/">Acheter</a><a href="/telecharger/">Installer</a><a href="/faq/">Questions fréquentes</a><span class="langue"><a href="/suggestions/" hreflang="fr" lang="fr" title="Français" aria-label="Français" aria-current="true"><svg viewBox="0 0 3 2" aria-hidden="true"><rect width="1" height="2" fill="#0055a4"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ef4135"/></svg></a><a href="/en/" hreflang="en" lang="en" title="English" aria-label="English"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#012169"/><path d="M0 0l60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0l60 40M60 0L0 40" stroke="#c8102e" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="13"/><path d="M30 0v40M0 20h60" stroke="#c8102e" stroke-width="8"/></svg></a></span></nav>
+</div></header>
+<main id="contenu">
+
+<h1>Suggérer une amélioration</h1>
+<p class="texte-long chapeau">Une idée pour Sine Nomine ? Dites-la nous.</p>
+<div class="alerte"><strong>N'écrivez aucune donnée confidentielle dans ce formulaire</strong> (ni nom réel de client, ni extrait de document). Décrivez le besoin en termes généraux.</div>
+<p class="texte-long">Vos suggestions sont lues et examinées. Nous ne pouvons ni garantir qu'une suggestion sera réalisée ni annoncer de délai. Elles restent privées : il n'y a pas de vote public.</p>
+<form id="suggestion" class="formulaire" novalidate>
+<p id="sugg-indispo" class="alerte" hidden>Le formulaire n'est pas encore raccordé à notre serveur : votre message ne serait pas transmis. Écrivez-nous en attendant à <a href="mailto:contact@sinenomine.app?subject=Suggestion%20Sine%20Nomine">contact@sinenomine.app</a>.</p>
+<div class="champ"><label for="categorie">Catégorie <span class="oblig">(obligatoire)</span></label>
+<select id="categorie" name="categorie" required aria-describedby="e-categorie"><option value="">Choisir…</option><option value="fonction">Nouvelle fonctionnalité</option><option value="amelioration">Amélioration d&#x27;une fonction existante</option><option value="detection">Détection (types d&#x27;informations, langues)</option><option value="formats">Formats de fichiers</option><option value="ergonomie">Ergonomie, documentation</option><option value="autre">Autre</option></select>
+<p class="erreur" id="e-categorie" hidden></p></div>
+<div class="champ"><label for="description">Votre idée <span class="oblig">(obligatoire, 10 à 2 000 caractères)</span></label>
+<textarea id="description" name="description" rows="7" maxlength="2000" required aria-describedby="e-description"></textarea>
+<p class="erreur" id="e-description" hidden></p></div>
+<div class="champ"><label for="courriel">Adresse courriel <span class="oblig">(facultative, pour recevoir une réponse)</span></label>
+<input id="courriel" name="courriel" type="email" autocomplete="email" maxlength="200" aria-describedby="e-courriel">
+<p class="erreur" id="e-courriel" hidden></p></div>
+<div class="piege" aria-hidden="true"><label for="site_web">Ne pas remplir</label><input id="site_web" name="site_web" type="text" tabindex="-1" autocomplete="off"></div>
+<p class="discret">Si vous indiquez une adresse courriel, elle est utilisée uniquement pour vous répondre au sujet de votre suggestion, puis conservée le temps de ce suivi. Voir la <a href="/confidentialite/">politique de confidentialité</a>.</p>
+<p id="sugg-statut" role="status" class="confirmation" hidden></p>
+<p><button type="submit" class="bouton" id="sugg-bouton">Envoyer ma suggestion</button></p>
+</form>
+<script src="/assets/config.js"></script>
+<script src="/assets/suggestions.js"></script>
+
+</main>
+<footer class="pied"><div class="pied-interieur">
+<img src="/assets/habeas-corpus.png" alt="Habeas Corpus" height="44">
+<span>© 2026 Habeas Corpus Consulting, une marque de Habeas Corpus<br><a href="mailto:contact@sinenomine.app">contact@sinenomine.app</a> · +33 1 89 16 73 22</span>
+<nav aria-label="Informations légales et liens utiles"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions/">Conditions d&#x27;utilisation</a><a href="/conditions-de-vente/">Conditions de vente</a><a href="/versions/">Historique des versions</a><a href="/suggestions/">Suggérer une amélioration</a><a href="/pseudonymisation-anonymisation/">Pseudonymisation ou anonymisation ?</a></nav>
+</div></footer>
+</body>
+</html>
