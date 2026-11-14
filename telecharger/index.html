@@ -24,21 +24,21 @@
 <main id="contenu">
 
 <h1>Télécharger Sine Nomine</h1>
-<p class="texte-long">Version <strong>0.1.4.0</strong> du 14/11/2026 · Windows 10 ou 11 · archive ZIP de 0,3 Mo (le programme ; les modèles de détection sont téléchargés à l'installation).</p>
+<p class="texte-long">Version <strong>0.1.4.1</strong> du 14/11/2026 · Windows 10 ou 11 · archive ZIP de 0,3 Mo (le programme ; les modèles de détection sont téléchargés à l'installation).</p>
 <div class="alerte"><strong>Une clé d'accès est nécessaire.</strong> Demandez-la à <a href="mailto:contact@sinenomine.app?subject=Demande%20de%20cl%C3%A9%20Sine%20Nomine">contact@sinenomine.app</a> (indiquez votre nom, votre organisation et l'usage prévu). Elle fixe la durée d'utilisation, comptée à partir de l'activation, et le nombre d'installations possibles.</div>
 <div class="telechargement">
-<h2 style="margin-top:0">Télécharger SineNomine-V0.1.4.0.zip</h2>
+<h2 style="margin-top:0">Télécharger SineNomine-V0.1.4.1.zip</h2>
 <noscript><p class="alerte">JavaScript est désactivé : le lien est affiché ci-dessous. En le suivant, vous acceptez les <a href="/conditions/">conditions d'utilisation</a> (version d'évaluation).</p>
-<p><a class="bouton" href="/telechargements/SineNomine-V0.1.4.0.zip" download>Télécharger</a></p></noscript>
+<p><a class="bouton" href="/telechargements/SineNomine-V0.1.4.1.zip" download>Télécharger</a></p></noscript>
 <label><input type="checkbox" id="accepter"><span>J'ai lu et j'accepte les <a href="/conditions/" target="_blank" rel="noopener">conditions d'utilisation</a> : licence sur <strong>clé d'accès</strong> (version d'évaluation ou commerciale), aucune garantie sur l'exhaustivité de la détection, relecture indispensable.</span></label>
-<a class="bouton" id="telecharger" href="/telechargements/SineNomine-V0.1.4.0.zip" download aria-disabled="true">Télécharger la version 0.1.4.0</a>
-<p class="discret" style="margin-bottom:0">Empreinte SHA-256 : <span class="empreinte">713f7b363484f4cba1018fccd7e4866231e0812e9aace37df85f2b5a24b37a29</span></p>
+<a class="bouton" id="telecharger" href="/telechargements/SineNomine-V0.1.4.1.zip" download aria-disabled="true">Télécharger la version 0.1.4.1</a>
+<p class="discret" style="margin-bottom:0">Empreinte SHA-256 : <span class="empreinte">8633732081c123eab508fce6c292e05b87e41ac68aecb90b5bea54478709e8be</span></p>
 </div>
 
 <h2>Installation (Windows)</h2>
 <ol class="etapes">
 <li><strong>Décompressez l'archive</strong> dans un dossier local, par exemple <code>C:\SineNomine</code>. Évitez un dossier synchronisé (Google Drive, OneDrive) : vos fichiers et l'archive des codes y seraient transmis à ce service.</li>
-<li><strong>Double-cliquez sur <code>lancer.bat</code></strong>. Au premier lancement, l'installation prépare tout : elle propose d'installer Python 3.12 si besoin (winget), télécharge environ 2 Go de modèles et installe la reconnaissance de caractères (Tesseract) pour les PDF scannés. Prévoyez un temps assez long, selon votre connexion, et une connexion Internet. L'installation vous demande votre <strong>clé d'accès</strong> et l'active auprès du serveur de Habeas Corpus S.A.S. ; elle vous indique combien de fois la clé peut encore être utilisée.</li>
+<li><strong>Double-cliquez sur <code>lancer.bat</code></strong>. Au premier lancement, l'installation prépare tout : elle propose d'installer Python 3.12 si besoin (winget), télécharge environ 2 Go de modèles et installe la reconnaissance de caractères (Tesseract) pour les PDF scannés. Prévoyez un temps assez long, selon votre connexion, et une connexion Internet. L'installation vous demande votre <strong>clé d'accès</strong> et l'active auprès du serveur de Habeas Corpus ; elle vous indique combien de fois la clé peut encore être utilisée.</li>
 <li><strong>L'interface s'ouvre dans votre navigateur</strong> à l'adresse <code>http://127.0.0.1:8765/</code> (adresse locale, visible de vous seul). Lisez et acceptez l'avertissement, puis choisissez une action dans le menu.</li>
 <li><strong>Facultatif</strong> : double-cliquez sur <code>creer-raccourcis.bat</code> pour ajouter un raccourci sur le Bureau.</li>
 </ol>
@@ -46,7 +46,7 @@
 
 <h2>Vérifier le fichier téléchargé</h2>
 <p class="texte-long">Dans PowerShell, depuis le dossier de téléchargement, comparez le résultat à l'empreinte ci-dessus :</p>
-<pre><code>Get-FileHash SineNomine-V0.1.4.0.zip -Algorithm SHA256</code></pre>
+<pre><code>Get-FileHash SineNomine-V0.1.4.1.zip -Algorithm SHA256</code></pre>
 
 <h2>Configuration conseillée</h2>
 <table>
@@ -72,7 +72,7 @@
 </main>
 <footer class="pied"><div class="pied-interieur">
 <img src="/assets/habeas-corpus.png" alt="Habeas Corpus">
-<span>© 2026 Habeas Corpus Consulting, une marque de Habeas Corpus S.A.S.<br><a href="mailto:contact@sinenomine.app">contact@sinenomine.app</a> · +33 1 89 16 73 22</span>
+<span>© 2026 Habeas Corpus Consulting, une marque de Habeas Corpus<br><a href="mailto:contact@sinenomine.app">contact@sinenomine.app</a> · +33 1 89 16 73 22</span>
 <nav aria-label="Informations légales"><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a><a href="/conditions/">Conditions d&#x27;utilisation</a></nav>
 </div></footer>
 </body>
