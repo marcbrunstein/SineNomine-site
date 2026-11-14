@@ -194,3 +194,19 @@ button.bouton:disabled { background: #cfd8de; color: #5d707e; cursor: not-allowe
 .offre-montant small { font-size: 1rem; font-weight: 600; }
 .profil { border: 1px solid var(--bordure); border-radius: 10px; padding: .5rem 1rem; margin: 0 0 1rem; }
 .profil legend { font-weight: 700; color: var(--bleu); padding: 0 .4rem; }
+
+/* Bloc d'accueil compact : schéma sous le titre */
+.heros-compact { padding: 1.5rem 1.5rem 1.25rem; margin-bottom: 1.5rem; }
+.heros-compact h1 { font-size: 1.9rem; max-width: none; margin: 0 0 .25rem; }
+.heros-compact .schema { margin: 1rem 0; padding: 1rem; }
+.heros-compact .schema p, .heros-compact .schema span { max-width: none; font-size: inherit; }
+.heros-compact .schema .schema-legende { color: var(--bleu); font-size: 1rem; }
+.heros-compact h1 { max-width: none !important; }
+.heros-compact > p { font-size: 1.05rem; margin: .5rem 0; }
+.heros-compact .actions { margin: .75rem 0 .5rem; }
+@media (max-width: 760px) { .heros-compact { padding: 1.25rem 1rem; } .heros-compact h1 { font-size: 1.5rem; } }
+
+/* Logo de l'en-tête : bandeau recadré sur le mot-symbole (sans le coin blanc), plus grand ; le texte redondant est masqué (l'image porte l'intitulé) */
+.marque img { width: 120px; height: 56px; object-fit: cover; object-position: 50% 49%; border-radius: 4px; }
+.marque span { display: none; }
+@media (max-width: 760px) { .marque img { width: 100px; height: 47px; } }
