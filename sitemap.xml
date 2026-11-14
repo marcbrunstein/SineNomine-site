@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.sinenomine.app/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/conditions/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/confidentialite/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/en/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/en/download/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/en/legal-notice/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/en/privacy/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/en/terms/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/mentions-legales/</loc><lastmod>2026-11-14</lastmod></url>
-<url><loc>https://www.sinenomine.app/telecharger/</loc><lastmod>2026-11-14</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://www.sinenomine.app/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/"/></url>
+<url><loc>https://www.sinenomine.app/acheter/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/acheter/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/buy/"/></url>
+<url><loc>https://www.sinenomine.app/conditions/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/conditions/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/terms/"/></url>
+<url><loc>https://www.sinenomine.app/confidentialite/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/confidentialite/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/privacy/"/></url>
+<url><loc>https://www.sinenomine.app/en/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/"/></url>
+<url><loc>https://www.sinenomine.app/en/buy/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/acheter/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/buy/"/></url>
+<url><loc>https://www.sinenomine.app/en/download/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/telecharger/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/download/"/></url>
+<url><loc>https://www.sinenomine.app/en/legal-notice/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/mentions-legales/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/legal-notice/"/></url>
+<url><loc>https://www.sinenomine.app/en/privacy/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/confidentialite/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/privacy/"/></url>
+<url><loc>https://www.sinenomine.app/en/terms/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/conditions/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/terms/"/></url>
+<url><loc>https://www.sinenomine.app/faq/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://www.sinenomine.app/mentions-legales/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/mentions-legales/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/legal-notice/"/></url>
+<url><loc>https://www.sinenomine.app/pseudonymisation-anonymisation/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://www.sinenomine.app/suggestions/</loc><lastmod>2026-11-14</lastmod></url>
+<url><loc>https://www.sinenomine.app/telecharger/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/telecharger/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/download/"/></url>
+<url><loc>https://www.sinenomine.app/versions/</loc><lastmod>2026-11-14</lastmod></url>
 </urlset>
