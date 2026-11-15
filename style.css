@@ -210,3 +210,7 @@ button.bouton:disabled { background: #cfd8de; color: #5d707e; cursor: not-allowe
 .marque img { width: 120px; height: 56px; object-fit: cover; object-position: 50% 49%; border-radius: 4px; }
 .marque span { display: none; }
 @media (max-width: 760px) { .marque img { width: 100px; height: 47px; } }
+
+/* Licences groupées : nombre de postes */
+.postes { margin: .25rem 0 1rem 1.9rem; }
+.postes input { width: 6.5rem; padding: .45rem .6rem; font-size: 1rem; border: 1px solid var(--bordure); border-radius: 8px; margin-left: .25rem; }
