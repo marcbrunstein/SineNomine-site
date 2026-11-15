@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url><loc>https://www.sinenomine.app/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/"/></url>
 <url><loc>https://www.sinenomine.app/acheter/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/acheter/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/buy/"/></url>
+<url><loc>https://www.sinenomine.app/assurance-sinistres/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/avocats/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/conditions/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/conditions/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/terms/"/></url>
 <url><loc>https://www.sinenomine.app/confidentialite/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/confidentialite/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/privacy/"/></url>
@@ -13,7 +14,9 @@
 <url><loc>https://www.sinenomine.app/en/terms/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/conditions/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/terms/"/></url>
 <url><loc>https://www.sinenomine.app/experts-comptables/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/faq/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://www.sinenomine.app/immobilier/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/mentions-legales/</loc><lastmod>2026-11-15</lastmod><xhtml:link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/mentions-legales/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/legal-notice/"/></url>
+<url><loc>https://www.sinenomine.app/notaires/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/pseudonymisation-anonymisation/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/ressources-humaines-paie/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.sinenomine.app/sante/</loc><lastmod>2026-11-15</lastmod></url>
