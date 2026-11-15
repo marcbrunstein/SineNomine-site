@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Installer Sine Nomine sous Windows | Sine Nomine</title>
-<meta name="description" content="Téléchargez et installez Sine Nomine sous Windows : archive, empreinte SHA-256, étapes d&#x27;installation et clé d&#x27;accès.">
+<meta name="description" content="Installez Sine Nomine sous Windows : où trouver votre clé, taille du téléchargement, espace disque, étapes du premier lancement.">
 <link rel="canonical" href="https://www.sinenomine.app/telecharger/">
 <link rel="alternate" hreflang="fr" href="https://www.sinenomine.app/telecharger/">
 <link rel="alternate" hreflang="en" href="https://www.sinenomine.app/en/download/">
@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="/style.css">
 <meta property="og:site_name" content="Sine Nomine">
 <meta property="og:title" content="Installer Sine Nomine sous Windows | Sine Nomine">
-<meta property="og:description" content="Téléchargez et installez Sine Nomine sous Windows : archive, empreinte SHA-256, étapes d&#x27;installation et clé d&#x27;accès.">
+<meta property="og:description" content="Installez Sine Nomine sous Windows : où trouver votre clé, taille du téléchargement, espace disque, étapes du premier lancement.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.sinenomine.app/telecharger/">
 <meta property="og:locale" content="fr_FR">
@@ -29,39 +29,72 @@
 <main id="contenu">
 
 <h1>Installer Sine Nomine</h1>
-<p class="texte-long">Version <strong>0.1.4.8</strong> du 14/11/2026 · Windows 10 ou 11 · archive ZIP de 0,45 Mo (le programme ; les modèles de détection sont téléchargés à l'installation).</p>
-<!--achat--><div class="alerte"><strong>Pas encore de licence ?</strong> <a href="/acheter/">Acheter Sine Nomine</a> : votre clé d'accès vous est envoyée par courriel après vérification du paiement.</div>
-<div class="alerte"><strong>Une clé d'accès est nécessaire.</strong> Demandez-la à <a href="mailto:contact@sinenomine.app?subject=Demande%20de%20cl%C3%A9%20Sine%20Nomine">contact@sinenomine.app</a> (indiquez votre nom, votre organisation et l'usage prévu). Elle fixe la durée d'utilisation, comptée à partir de l'activation, et le nombre d'installations possibles.</div>
-<div class="telechargement">
-<h2 style="margin-top:0">Télécharger SineNomine-V0.1.4.8.zip</h2>
-<noscript><p class="alerte">JavaScript est désactivé : le lien est affiché ci-dessous. En le suivant, vous acceptez les <a href="/conditions/">conditions d'utilisation</a> (version d'évaluation).</p>
-<p><a class="bouton" href="/telechargements/SineNomine-V0.1.4.8.zip" download>Télécharger</a></p></noscript>
-<label><input type="checkbox" id="accepter"><span>J'ai lu et j'accepte les <a href="/conditions/" target="_blank" rel="noopener">conditions d'utilisation</a> : licence sur <strong>clé d'accès</strong> (version d'évaluation ou commerciale), aucune garantie sur l'exhaustivité de la détection, relecture indispensable.</span></label>
-<a class="bouton" id="telecharger" href="/telechargements/SineNomine-V0.1.4.8.zip" download aria-disabled="true">Télécharger la version 0.1.4.8</a>
-<p class="discret" style="margin-bottom:0">Empreinte SHA-256 : <span class="empreinte">de2bb2292f2f455ec94adbeb6a7eb33e45811798855c94d151917de73ce4bca5</span></p>
-</div>
+<p class="texte-long chapeau">Version <strong>0.1.4.8</strong> du 14/11/2026 · Windows 10 ou 11 (64 bits).</p>
 
-<h2>Installation (Windows)</h2>
+<section aria-labelledby="parcours">
+<h2 id="parcours" class="sr-seul">Par où commencer</h2>
+<div class="editions-cartes">
+<div class="edition-carte">
+<h3>J'ai déjà ma clé</h3>
+<p>Téléchargez Sine Nomine, lancez-le, puis saisissez votre clé quand elle vous est demandée.</p>
+<p class="actions"><a class="bouton" href="#telechargement">Télécharger et installer</a></p>
+</div>
+<div class="edition-carte">
+<h3>Acheter une licence</h3>
+<p>Votre clé vous est envoyée par courriel après vérification du paiement.</p>
+<p class="actions"><a class="bouton bouton-contour" href="/acheter/">Voir les éditions et les prix</a></p>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="cle">
+<h2 id="cle">Où trouver votre clé</h2>
+<ul class="texte-long">
+<li><strong>Après un achat</strong>, la clé est envoyée à l'adresse saisie lors du paiement, dans un courriel intitulé « Votre licence Sine Nomine », expédié par contact@sinenomine.app. Conservez ce message.</li>
+<li><strong>Rien reçu ?</strong> Regardez dans les courriers indésirables, puis écrivez à <a href="mailto:contact@sinenomine.app?subject=Commande%20Sine%20Nomine">contact@sinenomine.app</a> en indiquant l'adresse utilisée pour payer. Vous n'avez pas à demander une nouvelle clé.</li>
+<li><strong>Licence groupée</strong> : la même clé sert sur chaque poste ; l'installation indique le nombre de crédits restants.</li>
+</ul>
+<p class="texte-long discret"><strong>Clé d'évaluation.</strong> Pour essayer Sine Nomine avant d'acheter, vous pouvez demander une clé d'évaluation, limitée dans le temps, à
+<a href="mailto:contact@sinenomine.app?subject=Demande%20de%20cl%C3%A9%20d%27%C3%A9valuation%20Sine%20Nomine">contact@sinenomine.app</a> (indiquez votre nom, votre organisation et l'usage prévu).</p>
+</section>
+
+<section aria-labelledby="telechargement">
+<h2 id="telechargement">Télécharger pour Windows</h2>
+<div class="telechargement">
+<dl class="couts">
+<div><dt>Programme à télécharger</dt><dd>0,45 Mo (archive ZIP)</dd></div>
+<div><dt>Composants récupérés au premier lancement</dt><dd>environ 2 Go (modèles de détection, bibliothèques)</dd></div>
+<div><dt>Espace disque conseillé</dt><dd>environ 6 Go</dd></div>
+<div><dt>Ordinateur</dt><dd>Windows 10 ou 11 en 64 bits, 8 Go de mémoire ou plus recommandés</dd></div>
+<div><dt>Internet et clé</dt><dd>nécessaires au premier lancement seulement ; ensuite, Sine Nomine fonctionne hors ligne</dd></div>
+</dl>
+<noscript><p class="alerte">JavaScript est désactivé : le lien est affiché ci-dessous. En le suivant, vous acceptez les <a href="/conditions/">conditions d'utilisation</a>.</p>
+<p><a class="bouton" href="/telechargements/SineNomine-V0.1.4.8.zip" download>Télécharger pour Windows (version 0.1.4.8)</a></p></noscript>
+<label><input type="checkbox" id="accepter"><span>J'ai lu et j'accepte les <a href="/conditions/" target="_blank" rel="noopener">conditions d'utilisation</a> : licence sur <strong>clé d'accès</strong>, aucune garantie sur l'exhaustivité de la détection, relecture indispensable.</span></label>
+<a class="bouton" id="telecharger" href="/telechargements/SineNomine-V0.1.4.8.zip" download aria-disabled="true">Télécharger pour Windows</a>
+<p class="discret">Version 0.1.4.8 · fichier <code>SineNomine-V0.1.4.8.zip</code> · 0,45 Mo</p>
+<details class="empreinte-bloc"><summary>Vérifier le fichier téléchargé (empreinte SHA-256)</summary>
+<p>Empreinte attendue : <span class="empreinte">de2bb2292f2f455ec94adbeb6a7eb33e45811798855c94d151917de73ce4bca5</span></p>
+<p>Dans PowerShell, depuis le dossier de téléchargement, comparez le résultat à cette empreinte :</p>
+<pre><code>Get-FileHash SineNomine-V0.1.4.8.zip -Algorithm SHA256</code></pre>
+</details>
+</div>
+</section>
+
+<section aria-labelledby="installation">
+<h2 id="installation">Installation, étape par étape</h2>
 <ol class="etapes">
 <li><strong>Décompressez l'archive</strong> dans un dossier local, par exemple <code>C:\SineNomine</code>. Évitez un dossier synchronisé (Google Drive, OneDrive) : vos fichiers et l'archive des codes y seraient transmis à ce service.</li>
-<li><strong>Double-cliquez sur <code>lancer.bat</code></strong>. Au premier lancement, l'installation prépare tout : elle propose d'installer Python 3.12 si besoin (winget), télécharge environ 2 Go de modèles et installe la reconnaissance de caractères (Tesseract) pour les PDF scannés. Prévoyez un temps assez long, selon votre connexion, et une connexion Internet. L'installation vous demande votre <strong>clé d'accès</strong> et l'active auprès du serveur de Habeas Corpus ; elle vous indique combien de fois la clé peut encore être utilisée.</li>
-<li><strong>L'interface s'ouvre dans votre navigateur</strong> à l'adresse <code>http://127.0.0.1:8765/</code> (adresse locale, visible de vous seul). Lisez et acceptez l'avertissement, puis choisissez une action dans le menu.</li>
-<li><strong>Facultatif</strong> : double-cliquez sur <code>creer-raccourcis.bat</code> pour ajouter un raccourci sur le Bureau.</li>
+<li><strong>Double-cliquez sur <code>lancer.bat</code>.</strong> Une fenêtre noire s'ouvre : c'est normal, c'est elle qui fait tourner Sine Nomine.
+<br><strong>Première fois seulement :</strong> l'installation propose d'installer Python 3.12 si besoin, télécharge environ 2 Go de composants et installe la reconnaissance de caractères (Tesseract). Cela peut durer longtemps selon votre connexion : tant que des lignes défilent dans la fenêtre noire, l'installation avance.</li>
+<li><strong>Saisissez votre clé d'accès</strong> quand l'installation vous la demande. Elle est activée auprès du serveur de Habeas Corpus, et l'installation vous indique combien de fois la clé peut encore être utilisée.</li>
+<li><strong>Sine Nomine est prêt quand votre navigateur s'ouvre</strong> à l'adresse <code>http://127.0.0.1:8765/</code> (adresse locale, visible de vous seul). Lisez et acceptez l'avertissement, puis choisissez une action dans le menu.</li>
+<li><strong>Facultatif :</strong> double-cliquez sur <code>creer-raccourcis.bat</code> pour ajouter un raccourci sur le Bureau.</li>
 </ol>
-<p class="texte-long">Le chargement des modèles prend 20 à 60 secondes à chaque démarrage. Laissez la fenêtre noire ouverte pendant l'utilisation, et fermez-la pour arrêter Sine Nomine.</p>
 
-<h2>Vérifier le fichier téléchargé</h2>
-<p class="texte-long">Dans PowerShell, depuis le dossier de téléchargement, comparez le résultat à l'empreinte ci-dessus :</p>
-<pre><code>Get-FileHash SineNomine-V0.1.4.8.zip -Algorithm SHA256</code></pre>
-
-<h2>Configuration conseillée</h2>
-<table>
-<tr><th>Système</th><td>Windows 10 ou 11 (64 bits)</td></tr>
-<tr><th>Mémoire</th><td>8 Go de RAM ou plus recommandés (les modèles de détection sont chargés en mémoire)</td></tr>
-<tr><th>Espace disque</th><td>environ 6 Go (bibliothèques et modèles de détection)</td></tr>
-<tr><th>Internet</th><td>nécessaire pour l'installation uniquement ; l'utilisation est entièrement hors ligne</td></tr>
-</table>
-<div class="alerte">Sine Nomine est un outil d'aide : relisez toujours les détections et le résultat. Voir les <a href="/conditions/">conditions d'utilisation</a>.</div>
+<div class="alerte"><strong>Aux démarrages suivants</strong>, comptez 20 à 60 secondes de chargement des modèles avant l'ouverture du navigateur. Laissez la fenêtre noire ouverte pendant l'utilisation ; fermez-la pour arrêter Sine Nomine.</div>
+<p class="texte-long discret">Sine Nomine est un outil d'aide : relisez toujours les détections et le résultat. Voir les <a href="/conditions/">conditions d'utilisation</a> et les <a href="/faq/#installer">questions fréquentes sur l'installation</a>.</p>
+</section>
 <script>
 (function () {
   var case_ = document.getElementById("accepter"), lien = document.getElementById("telecharger");
